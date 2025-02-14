@@ -1,0 +1,167 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./css/style.css"/>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <!--header section-->
+        <header >
+            <!--Top Section starts-->
+            <div class="container py-2 shadow-sm">
+            <div class="flex justify-between items-center">
+                <div>
+                    rafcart@support.com
+                </div>
+                <div class="space-x-4">
+                    <a href="#">Track my Order</a>
+                    <a href="#">Login/Sigup</a>
+                </div>
+            </div>
+        </div>
+        <!--top Section ends-->
+        <div class="py-6 container flex items-center justify-between">
+            <div>
+                <a href="#">
+                    <img src="./images/logo.svg">
+                </a>
+            </div>
+            <!--search box-->
+            <div class="w-full items-center max-w-xl">
+                <span class="relative left-8 text-lg text-gray-300">
+                    <i class="fas fa-search"></i>
+                </span>
+                <input class= "border border-r-0 pl-11 py-2 pr-3 text-lg border-red-100 hover:border-red-100 focus:border-red-100" type="text">
+                <button class="bg-red-700 rounded-r-md py-3 px-8 text-white">Search</button>
+            </div>
+            <div class="flex justify-center items-center text-center gap-3">
+                <a href="#" class="relative">
+                    <i class="fa-regular fa-heart text-2xl"></i>
+                    <div class="text-sm">Wish List</div>
+                    <span class="text-center flex justify-center items-center right-1 -top-1 absolute text-xs bg-red-600 text-white w-5 h-5 rounded-full">6</span>
+                </a>
+                <a href="#" class="relative">
+                    <i class="fa-regular fa-heart text-2xl"></i>
+                    <div class="text-sm">Cart</div>
+                    <span class="text-center flex justify-center items-center right-1 -top-1 absolute text-xs bg-red-600 text-white w-5 h-5 rounded-full">6</span>
+                </a>
+                <a href="#" class="relative">
+                    <i class="fa-regular fa-heart text-2xl"></i>
+                    <div class="text-sm">Account </div>
+                </a>
+            </div>
+        </div>
+    <!--nav bar-->
+    <nav class="bg-black text-white">
+        <div class="container flex">
+                <div class="bg-red-500  relative group hover:cursor-pointer">
+                    <div class="p-4">
+                    <i class="fa fa-bars"></i>
+                    <span>All Categories</span>
+                </div>
+                    <div class="group-hover:block w-full absolute py-2 hidden divide-y divide-gray-400 text-black shadow-lg">
+                        <a href="#" class="flex py-4 px-4 space-x-3">
+                            <i class="fa-solid fa-shoe-prints"></i>
+                            <span class="hover:text-blue-300">Shoes</span>
+                        </a>
+                        <a href="#" class="flex py-4 px-4 space-x-3">
+                            <i class="fa-solid fa-shoe-prints"></i>
+                            <span>Shoes</span>
+                        </a>
+                    </div>
+                </div>
+        <div class="flex justify-between flex-1 p-4">
+                <div class="space-x-4">
+                    <a href="#">Home</a>
+                     <a href="#">Shop</a>
+                     <a href="#">Contact</a>
+                </div>
+                <div class="space-x-2">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>Call :+ 123 456 789</span>
+                </div>
+            </div>
+        </div>
+    </nav>
+    </header>
+<!--header end-->
+<!--hero section-->
+<div class="bg-cover bg-no-repeat" style="background-image:url('./images/banner-1.jpg')">
+    <div class="container">
+            <div class="text-5xl font-semibold pt-16">Best Collection for<br/>Home Decoration</div>
+            <div class="text-gray-500 py-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br/> Vulputate rhoncus pellentesque id integer neque,<br/> vel accumsan dolor diam.</div>
+            <div class="pb-12"><button class="bg-red-500 p-3 text-white rounded-md">Shop Now</button></div>
+    </div>
+</div>
+<!--features-->
+<div class="container grid grid-cols-3 py-16 gap-4">
+    <div class="flex gap-4 border border-red-300 rounded-md  p-5">
+        <img src="./images/delivery-van.svg">
+        <div>
+            <h3>Free Shipping</h3>
+            <p class="text-gray-300">orders above 500</p>
+        </div>
+    </div>
+    <div class="flex gap-4 border border-red-300 rounded-md  p-5">
+        <img src="./images/delivery-van.svg">
+        <div>
+            <h3>Free Shipping</h3>
+            <p class="text-gray-300">orders above 500</p>
+        </div>
+    </div>
+    <div class="flex gap-4 border border-red-300 rounded-md  p-5">
+        <img src="./images/delivery-van.svg">
+        <div>
+            <h3>Free Shipping</h3>
+            <p class="text-gray-300">orders above 500</p>
+        </div>
+    </div>
+</div>
+    <!--product banner-->
+    <div class="container grid grid-cols-2 gap-3">
+        <!--Grid Col-->
+        <div class="flex gap-3 bg-red-200 p-5 pt-8 justify-between">
+            <div>
+                <div class="text-red-600 font-bold ">30% offer</div>
+                <div class="text-2xl font-semibold">Free Shipping</div>
+                <div class="pt-2">Attractive Natural Furniture</div>
+                <div class="py-3"> <button class="bg-red-500 text-white p-2 rounded-md"> Shop now</button></div>
+            </div>
+            <img src="./images/sofa-1.png" class="w-40 hover:scale-110 transition" />
+        </div>
+        <!--Grid Col-->
+        <div class="flex gap-3 bg-gray-300 p-5 pt-8 justify-between">
+            <div>
+                <div class="text-red-600 font-bold ">30% offer</div>
+                <div class="text-2xl font-semibold">Free Shipping</div>
+                <div class="pt-2">Attractive Natural Furniture</div>
+                <div class="py-3"> <button class="bg-red-500 text-white p-2 rounded-md"> Shop now</button></div>
+            </div>
+            <img src="./images/sofa-2.png" class="w-40 hover:scale-110 transition" />
+        </div>
+    </div>
+    <!--product banner ends-->
+    <!--Category section start-->
+    <div class="container">
+        <h1 class="text-3xl py-4">Shop by Category</h1>
+        <div class="grid grid-cols-3">
+            <div class="relative">
+                <img src="./images/category-1.jpg" />
+                <span
+                    class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-40 text-white">Bedroom</span>
+            </div>
+            <div class="relative">
+                <img src="./images/category-2.jpg" />
+                <span
+                    class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-40 text-white">Bedroom</span>
+            </div>
+            <div class="relative">
+                <img src="./images/category-3.jpg" />
+                <span
+                    class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-40 text-white">Bedroom</span>
+            </div>
+        </div>
+    </div>
+    <!--Category section start-->
+    </body>
+</html>
